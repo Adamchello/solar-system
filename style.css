@@ -1,0 +1,28 @@
+body {
+    margin:0px;
+    padding: 0px;
+    overflow-y: hidden;
+    background-color: #172734;
+} 
+
+.selector {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.planet__selector{
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    background-color: #999;
+    margin: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.planet__selector:hover{
+    background-color: #D0d0d0;
+}
